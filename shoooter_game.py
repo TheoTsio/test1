@@ -15,9 +15,9 @@ mixer.music.set_volume(0.3)
 mixer.music.play()
 
 font.init()
-font2 = font.SysFont('Arial', 36)
+font2 = font.SysFont('Arial', 38)
 
-font1 = font.SysFont('Arial',  80)
+font1 = font.SysFont('Arial',  81)
 
 game_over_lose = font1.render('YOU LOSE', True, (255,0,0))
 
